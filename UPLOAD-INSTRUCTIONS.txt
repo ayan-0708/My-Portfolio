@@ -1,0 +1,20 @@
+ANTIGRAVITY PORTFOLIO — PATH-FIXED FILES
+
+These are your Antigravity-generated website files, with their existing design and content preserved. The HTML paths have been adjusted to match the GitHub repository layout you showed, where all files are in the repository root.
+
+In your GitHub repository, replace these matching files by uploading the files from this folder into the repository root:
+
+- index.html
+- style.css
+- main.js
+- avatar.svg
+- favicon.svg
+- dkte-bus-tracker.jpg
+- idealab-waste-to-best.jpg
+- press-digital-diwali.jpg
+- press-mahasatta.jpg
+- press-sakal.jpg
+
+Keep LICENSE and README.md. Do not create css/ or js/ or images/ folders for these files; the replacement HTML points to root-level files.
+
+After upload, commit the changes. Wait for GitHub Pages to deploy, then hard-refresh the published page with Ctrl+F5. The stylesheet path should resolve as ./style.css and the script as ./main.js.
