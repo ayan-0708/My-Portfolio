@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (copyEmailBtn) {
     copyEmailBtn.addEventListener('click', () => {
-      const email = 'meetayan.shaikh@gmail.com';
+      const email = 'teamessentra@gmail.com';
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(email).then(() => {
           showToast('✓ Email address copied to clipboard!');
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.execCommand('copy');
       showToast('✓ Email address copied to clipboard!');
     } catch (err) {
-      showToast('meetayan.shaikh@gmail.com');
+      showToast('teamessentra@gmail.com');
     }
     document.body.removeChild(tempInput);
   }
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Generate mailto link
       const encodedSubject = encodeURIComponent(subject || `Message from ${name} via Portfolio`);
       const encodedBody = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-      const mailtoUrl = `mailto:meetayan.shaikh@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
+      const mailtoUrl = `mailto:teamessentra@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
 
       if (formStatus) {
         formStatus.textContent = 'Opening your email client...';
@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       setTimeout(() => {
         if (formStatus) {
-          formStatus.textContent = 'If your email app didn\'t open, you can directly email meetayan.shaikh@gmail.com';
+          formStatus.textContent = 'If your email app didn\'t open, you can directly email teamessentra@gmail.com';
         }
       }, 2500);
     });
